@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment - Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="clock-card">
+
+        <header class="top-bar">
+            <div class="brand">
+                <span class="brand-dot"></span>
+                <span>MOMENT <small>/ 01</small></span>
+            </div>
+            <span class="top-label">YOUR PERSONAL TIMEPIECE</span>
+        </header>
+
+        <section class="clock-content">
+            <p class="greeting" id="greeting">Good afternoon.</p>
+
+            <div class="time-container">
+                <span id="hours">12</span>
+                <span class="colon">:</span>
+                <span id="minutes">00</span>
+                <span class="seconds" id="seconds">00</span>
+                <span class="ampm" id="ampm">PM</span>
+            </div>
+
+            <p class="date" id="date">THURSDAY, NOVEMBER 12, 2026</p>
+
+            <div class="live-status">
+                <span class="live-dot"></span>
+                LIVE LOCAL TIME
+            </div>
+        </section>
+
+        <footer class="bottom-bar">
+            <span>TIME NEVER STANDS STILL.</span>
+            <span class="footer-right">MAKE IT COUNT ↗</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
